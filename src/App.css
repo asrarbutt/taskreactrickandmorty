@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+input{
+  margin-top: 50px;
+  width: 100rem;
+  height: 10rem;
+  font-size: 50px;
+
+}
