@@ -9,8 +9,7 @@
 .cards{
 
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(1fr, 6fr));
-
+grid-template-columns: repeat(6, 1fr);
 
     border-radius: 15px;
     box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);

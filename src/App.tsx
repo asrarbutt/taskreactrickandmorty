@@ -10,7 +10,7 @@ function App() {
 
 
 
-        <CharacterCard name={"Abradolf Lincler"}/>
+        <CharacterCard name={""}/>
       </header>
     </div>
   );

@@ -10,7 +10,7 @@ type CharacterProbs = {
 export default function CharacterCard(props: CharacterProbs) {
 
 console.log(props.name);
-    const getCharacter = characterslist.filter(h=>h.name==props.name).map((e) => {
+    const getCharacter = characterslist.filter(h=>h.name==props.name|| props.name==="").map((e) => {
 
         return (
             <div>
