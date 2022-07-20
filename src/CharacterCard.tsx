@@ -9,8 +9,8 @@ type CharacterProbs = {
 }
 export default function CharacterCard(props: CharacterProbs) {
 
-
-    const getCharacter = characterslist.map((e) => {
+console.log(props.name);
+    const getCharacter = characterslist.filter(h=>h.name==props.name).map((e) => {
 
         return (
             <div>

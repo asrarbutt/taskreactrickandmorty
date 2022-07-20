@@ -8,8 +8,9 @@
 }
 .cards{
 
-    display: inline-grid;
-    grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(1fr, 6fr));
+
 
     border-radius: 15px;
     box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
@@ -21,6 +22,7 @@
 
 .cards div{
     border: .3px solid #bde8d4;
+    border-radius: 1rem;
 
     margin: 1rem;
     align-items: center;
@@ -31,9 +33,16 @@
 
 }
 
+.cards div>h1{
+    color: #212323;
+    font-size: 50px;
+
+}
+
 .cards div:hover{
     background-image: linear-gradient(90deg, #a9c9ff 30%, #ffbbec 40%);
-
+    opacity: 0.7;
+    margin-top:-7px;
 
 }
 
