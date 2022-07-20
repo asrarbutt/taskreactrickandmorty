@@ -4,18 +4,36 @@
 
 .header{
     color: #3dc09f;
+
 }
 .cards{
 
     display: inline-grid;
     grid-template-columns:1fr 1fr 1fr 1fr 1fr;
 
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+
+
 
 
 }
+
 .cards div{
-    border: 2px solid red;
+    border: .3px solid #bde8d4;
+
     margin: 1rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #a9c9ff;
+    background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
+
+
+}
+
+.cards div:hover{
+    background-image: linear-gradient(90deg, #a9c9ff 30%, #ffbbec 40%);
+
 
 }
 
